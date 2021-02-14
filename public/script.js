@@ -8,6 +8,7 @@ const startStream = async () => {
     const v = document.querySelector('video')
     const cameraSelect = document.querySelector('#camera')
     const imageCanvas = document.querySelector('#imageCanvas')
+    const image = document.querySelector('#image')
     const takePictureButton = document.querySelector('#takePictureButton')
     const videoTag = document.querySelector('#videoTag')
     
