@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinit</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div>
         Video: <select id="camera"></select>
+        <button id="takePictureButton">Take Picture</button>
     </div>
     <div>
-        <button id="takePictureButton">Take Picture</button>
+        <video id="videoTag" autoplay></video>
         <canvas id="imageCanvas" style="display:none"></canvas>
         <img id="image" alt="">
     </div>
-    <video id="videoTag" autoplay></video>
-    <script src="script.js"></script>
 </body>
 </html>
