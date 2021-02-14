@@ -1,0 +1,8 @@
+.grayscale-filter {
+    filter: saturate(.03)
+}
+
+video {
+    border: 2px solid lightseagreen;
+    object-fit: cover;
+}
