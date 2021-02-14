@@ -12,9 +12,11 @@
         Video: <select id="camera"></select>
     </div>
     <div>
-        <button id="takePicture">Take Picture</button>
+        <button id="takePictureButton">Take Picture</button>
+        <canvas id="imageCanvas" style="display:none"></canvas>
+        <img id="image" alt="">
     </div>
-    <video autoplay></video>
+    <video id="videoTag" autoplay></video>
     <script src="script.js"></script>
 </body>
 </html>
